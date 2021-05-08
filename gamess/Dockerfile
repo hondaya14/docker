@@ -10,15 +10,15 @@ ARG CUDA_TOOLKIT_VERSION=10.1
 
 ### User account in Docker image
 # username
-ARG USER_NAME="hondaya"
+ARG USER_NAME=""
 # groupname
-ARG GROUP_NAME="yasunaga-lab"
+ARG GROUP_NAME=""
 # UID
-ARG USER_ID="12121"
+ARG USER_ID=""
 # GID
-ARG GROUP_ID="1001"
+ARG GROUP_ID=""
 # SSH public key
-ARG USER_SSH_PUBKEY="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC82C1j47UiCR4j3iKxb6fs/3E+6dOCa2kH5Dcr1iaZje9EOtUDvS70JkvPR61H35x81o2Vp8Ep5CR5ZrH411tZauTO7H8vLOzhba1MFcEaWKkhmwInLtfj+GFF09bb5Vu9bgQfsqzHUVNzAIflSaUxfR+W64dTYz4rmNfjFe764gSqIWi74tMgo2RG5unsHuyGMmb1DrRn1sxKSQonHyqNXs0zi1FRlLhzmOKGNVH+qRNjvgl1k5aVizuhqHhM6PSwWNHCqkLp0OfMbSvsbKIm/viIaw15MKouy4cHBAOtHEzyoIN8USCd6Hr+wk7pgM6dCFg+jdSa8d5NKkIUiLNj "
+ARG USER_SSH_PUBKEY=""
 
 
 ### Install linux commands
